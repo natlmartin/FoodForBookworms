@@ -1,0 +1,291 @@
+* {
+    font-family: 'Karma', serif;
+    font-size: 16px;
+}
+
+/* Universal Styles */
+
+body {
+    margin: 0.5rem; 
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    color: midnightblue;
+    display: inline-block;
+}
+
+h2 {
+    font-family: 'Yeseva One', cursive;
+}
+
+h3 {
+    font-family: 'Yeseva One', cursive;
+    color: cadetblue;
+    text-align: center; 
+    font-size: 2rem;
+}
+
+h4 {
+    color: tomato;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+a { 
+    text-decoration: none; 
+}
+
+li {
+    list-style: none;
+}
+
+/* Header */
+
+.navbar {
+    height: 80px;  
+    width: 100%;
+    color: #FBFBFC;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 0.5rem;
+}
+
+div.logo {
+    height: 30px;
+    margin: 20px 0;
+    margin-left: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+img.logo {
+    height: 3rem;
+    margin-left: 1rem;
+    width: auto;
+}
+
+h1.logo {
+    font-size: 1rem;
+    font-family: 'Yeseva One', cursive; 
+    margin: 0;
+}
+
+.navmenu {
+    align-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav > ul {
+    padding: 0;
+}
+
+nav a {
+    margin: 15px;
+    color: midnightblue;
+    font: 'Yeseva One', cursive;
+    font-weight: 600;
+}
+
+button.nav {
+    background-color: cadetblue;
+    color: midnightblue;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    margin: auto 1rem;
+}
+
+.burger {
+    margin: auto;
+    margin-left: 10px;
+    display: none;   
+    height: 30px;
+    width: 40px;
+    padding: 10px 5px;
+}
+
+@media only screen and (max-width: 480px) {
+    nav li a {
+        display: none;
+    }
+
+    img.burger {
+        display: block;
+        float: right;
+        margin-right: 1rem;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    nav button {
+        display: none;
+    }
+
+}
+
+/* Hero banner */
+
+header {
+    background-image: url("./Images/Head.jpg");
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed;
+    height: 30rem;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header h2 {
+    font-size: 3rem;
+    font-family: 'Karma', serif;
+    margin: 1rem 0 1rem 1rem;
+    display: block;
+    flex-shrink: 2;
+}
+
+/* Features */
+
+div.genre-categories {
+    color: mintcream;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+div.Genres {
+    height: 15rem;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+}
+
+div.featurebox {
+    flex: 1;
+    width: 200px;
+    height: auto;
+    margin: auto; 
+    display: flex; 
+    flex-direction: column; 
+}
+
+.title {
+    text-align: center; 
+}
+
+.imagecontainer {
+    width: 90%;
+    height: 65%;
+    margin: 0px auto;
+}
+
+.feature-image {
+    width: 100%;
+}
+
+/* Book of the Month */
+
+div.menu {
+    background-color: cadetblue;
+    color: mintcream;
+    padding-top: 1rem;
+    margin: 1.5rem 1.5rem 0 1.5rem;
+}
+
+h3.menu {
+    color: mintcream;
+}
+
+h4.month-text {
+    color: mintcream;
+    text-align: center;
+    margin: 0; 
+}
+
+div.month-text {
+    flex: auto; 
+    margin: 1rem;
+    text-align: center; 
+}
+
+.month-button {
+    background-color: tomato;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+img.tomorrow-image {
+    width: 100%; 
+}
+
+/* About */ 
+
+.about-text {
+    margin: 1rem 1.5rem;
+    color: midnightblue;
+}
+
+div.About {
+    margin-bottom: 4rem; 
+}
+
+.team {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    height: 300px; 
+}
+
+.employee-card {
+    flex: 1;
+    flex-direction: column; 
+    width: 200;
+    height: auto;
+    margin: auto;
+    display: flex;
+}
+
+.employee-image {
+    width: 90%;
+    height: 90%;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.employee-label {
+    text-align: center; 
+    color: tomato;
+}
+
+img.profile {
+    width: 60%;
+}
+
+/* Footer */ 
+
+footer {
+    margin-top: 80px; 
+}
+
+div.footer {
+    text-align: center;
+    color: midnightblue;
+    background-color: cadetblue;
+    display: inline-block;
+    width: 100%;
+    margin-top: 4rem; 
+    font-size: 0.3rem;
+    padding: 20px;
+}
