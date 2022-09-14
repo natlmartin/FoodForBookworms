@@ -132,7 +132,7 @@ button.nav {
 /* Hero banner */
 
 header {
-    background-image: url("./Images/Head.jpg");
+    background-image: url("Head.jpg");
     background-size: cover;
     width: 100%;
     background-attachment: fixed;
